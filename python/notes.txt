@@ -1,0 +1,2 @@
+2008.05.29
+* To make compilation of the Fortran with F2PY and Intel Visual Fortran 10.1, I had to modify the intel.py in numpy.distutils (python2.5)

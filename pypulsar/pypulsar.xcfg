@@ -1,0 +1,6 @@
+autogenerate=1
+embedResource=1
+filename=pypulsar_xrc.py
+genGettext=1
+makeXRS=0
+

@@ -1,0 +1,1602 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<resource>
+  <!--Pypulsar Ressources-->
+  <object class="wxDialog" name="SearchDlg">
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxBoxSizer">
+              <orient>wxVERTICAL</orient>
+              <object class="sizeritem">
+                <object class="wxStaticBoxSizer">
+                  <label>Search String</label>
+                  <orient>wxHORIZONTAL</orient>
+                  <object class="sizeritem">
+                    <object class="wxTextCtrl" name="ID_SEARCH_STRING">
+                      <XRCED>
+                        <assign_var>1</assign_var>
+                      </XRCED>
+                    </object>
+                    <option>1</option>
+                    <flag>wxEXPAND</flag>
+                  </object>
+                </object>
+                <option>0</option>
+                <flag>wxEXPAND</flag>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticBoxSizer">
+                  <label>Replace string</label>
+                  <orient>wxHORIZONTAL</orient>
+                  <object class="sizeritem">
+                    <object class="wxTextCtrl" name="ID_REPLACE_STRING">
+                      <XRCED>
+                        <assign_var>1</assign_var>
+                      </XRCED>
+                    </object>
+                    <option>1</option>
+                    <flag>wxEXPAND</flag>
+                  </object>
+                </object>
+                <option>0</option>
+                <flag>wxEXPAND</flag>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="ID_FOUND">
+                  <label>INFO: You can use regular expressions in your search string!</label>
+                  <size>200,30</size>
+                  <style/>
+                  <fg>#8000FF</fg>
+                </object>
+                <option>1</option>
+                <flag>wxALL|wxEXPAND</flag>
+                <border>5</border>
+              </object>
+            </object>
+            <option>1</option>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>6</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxBoxSizer">
+              <object class="sizeritem">
+                <object class="wxRadioBox" name="ID_DIRECTION">
+                  <label>Search direction</label>
+                  <dimension>0</dimension>
+                  <content>
+                    <item>From Top</item>
+                    <item>Forward</item>
+                    <item>Backward</item>
+                    <item>In Selection</item>
+                  </content>
+                  <selection>0</selection>
+                  <dimension>0</dimension>
+                  <style>wxRA_SPECIFY_ROWS</style>
+                  <XRCED>
+                    <assign_var>1</assign_var>
+                  </XRCED>
+                </object>
+                <option>0</option>
+                <flag>wxEXPAND|wxALIGN_RIGHT</flag>
+                <border>5</border>
+              </object>
+              <orient>wxVERTICAL</orient>
+            </object>
+            <option>0</option>
+            <flag>wxTOP|wxBOTTOM|wxRIGHT|wxEXPAND</flag>
+            <border>5</border>
+          </object>
+        </object>
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxButton" name="ID_SEARCH_BUTTON">
+              <label>Search...</label>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>0</option>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="ID_REPLACE_BUTTON">
+              <label>Replace...</label>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>0</option>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="ID_REPLACESEARCH_BUTTON">
+              <label>Replace and Search...</label>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>0</option>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="ID_REPLACEALL_BUTTON">
+              <label>Replace All...</label>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>0</option>
+            <flag>wxEXPAND</flag>
+          </object>
+        </object>
+      </object>
+    </object>
+    <title>Search/Replace</title>
+    <icon stock_id="wxART_FIND_AND_REPLACE"/>
+    <bg>#EFEFEF</bg>
+    <style>wxDEFAULT_DIALOG_STYLE|wxCAPTION|wxSTAY_ON_TOP|wxDIALOG_MODELESS</style>
+  </object>
+  <object class="wxDialog" name="CheckDlg">
+    <style>wxSTAY_ON_TOP|wxDIALOG_MODAL</style>
+    <bg>#FFFF80</bg>
+    <title/>
+    <centered>1</centered>
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxStaticBitmap" name="bmp1">
+              <bitmap>images\pypulsarlogo.gif</bitmap>
+            </object>
+            <flag>wxALL|wxALIGN_LEFT</flag>
+            <border>4</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="_VERSION">
+              <label>Version 0.2.X</label>
+              <fg>#C98301</fg>
+              <font>
+                <size>14</size>
+                <style>normal</style>
+                <weight>bold</weight>
+                <underlined>0</underlined>
+                <family>swiss</family>
+                <face>Trebuchet MS</face>
+                <encoding>windows-1252</encoding>
+              </font>
+              <focused>1</focused>
+              <style>wxALIGN_RIGHT</style>
+            </object>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxBOTTOM|wxRIGHT|wxLEFT|wxEXPAND</flag>
+        <border>30</border>
+        <object class="wxStaticBitmap" name="_BITMAP">
+          <size>311,163</size>
+          <style>wxTRANSPARENT_WINDOW</style>
+          <bg>#FFFF80</bg>
+          <bitmap>images\pypulsarsplash.gif</bitmap>
+          <focused>1</focused>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="_TEXT">
+          <size>311,20</size>
+          <label>Loading...</label>
+          <bg>#FFFF80</bg>
+          <font>
+            <size>10</size>
+            <style>normal</style>
+            <weight>bold</weight>
+            <underlined>0</underlined>
+            <family>swiss</family>
+            <face>Tahoma</face>
+            <encoding>windows-1252</encoding>
+          </font>
+          <style>wxNO_BORDER</style>
+        </object>
+        <option>0</option>
+        <flag>wxALL|wxALIGN_CENTRE</flag>
+        <border>7</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxTextCtrl" name="_INFO">
+          <size>311,80</size>
+          <bg>#FFFF80</bg>
+          <style>wxSIMPLE_BORDER|wxTE_AUTO_SCROLL|wxTE_MULTILINE|wxTE_READONLY</style>
+          <XRCED>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <option>0</option>
+        <flag>wxALL|wxGROW</flag>
+        <border>10</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxButton" name="_OKBUTTON">
+          <label>Seen</label>
+          <XRCED>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <option>0</option>
+        <flag>wxALL|wxALIGN_RIGHT|wxALIGN_BOTTOM</flag>
+        <border>4</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="_COPYRIGHT">
+          <label>Copyright 2007-2008:  C.Fernandez and J.P.Amoureux</label>
+          <fg>#400000</fg>
+          <font>
+            <size>10</size>
+            <style>normal</style>
+            <weight>bold</weight>
+            <underlined>0</underlined>
+            <family>swiss</family>
+            <face>Trebuchet MS</face>
+            <encoding>windows-1252</encoding>
+          </font>
+        </object>
+        <option>0</option>
+        <flag>wxALIGN_CENTRE_HORIZONTAL</flag>
+        <border>4</border>
+      </object>
+    </object>
+  </object>
+  <object class="wxDialog" name="SplashDlg">
+    <object class="wxBoxSizer" name="_TEXT">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer" name="_TEXT">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxStaticBitmap" name="bmp1">
+              <bitmap>images\pypulsarlogo.gif</bitmap>
+            </object>
+            <flag>wxALL|wxALIGN_LEFT</flag>
+            <border>4</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="_VERSION">
+              <label>Version 0.2.X</label>
+              <fg>#C98301</fg>
+              <font>
+                <size>14</size>
+                <style>normal</style>
+                <weight>bold</weight>
+                <underlined>0</underlined>
+                <family>swiss</family>
+                <face>Trebuchet MS</face>
+                <encoding>windows-1252</encoding>
+              </font>
+              <focused>1</focused>
+              <style>wxALIGN_RIGHT</style>
+            </object>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticBitmap" name="_BITMAP">
+          <size>311,163</size>
+          <bitmap>images\pypulsarsplash.gif</bitmap>
+          <bg>#FFFF80</bg>
+          <focused>1</focused>
+          <style>wxTRANSPARENT_WINDOW</style>
+        </object>
+        <option>0</option>
+        <flag>wxBOTTOM|wxRIGHT|wxLEFT|wxEXPAND</flag>
+        <border>30</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="_TEXT">
+          <label>Loading...</label>
+          <bg>#FFFF80</bg>
+          <font>
+            <size>10</size>
+            <style>normal</style>
+            <weight>bold</weight>
+            <underlined>0</underlined>
+            <family>swiss</family>
+            <face>Tahoma</face>
+            <encoding>windows-1252</encoding>
+          </font>
+          <style>wxNO_BORDER</style>
+        </object>
+        <option>0</option>
+        <flag>wxALIGN_CENTRE_HORIZONTAL</flag>
+        <border>3</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="_COPYRIGHT">
+          <label>Copyright 2007-2008:  C.Fernandez and J.P.Amoureux</label>
+          <fg>#400000</fg>
+          <font>
+            <size>10</size>
+            <style>normal</style>
+            <weight>bold</weight>
+            <underlined>0</underlined>
+            <family>swiss</family>
+            <face>Trebuchet MS</face>
+            <encoding>windows-1252</encoding>
+          </font>
+          <focused>1</focused>
+          <style>wxALIGN_CENTRE</style>
+        </object>
+        <flag>wxALIGN_CENTRE_HORIZONTAL</flag>
+      </object>
+    </object>
+    <centered>1</centered>
+    <bg>#FFFF80</bg>
+    <style>wxFULL_REPAINT_ON_RESIZE|wxSTAY_ON_TOP</style>
+  </object>
+  <object class="wxPanel" name="project_WizardPage_1">
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="S0">
+              <style>wxALIGN_CENTRE</style>
+              <font>
+                <size>14</size>
+                <family>default</family>
+                <style>normal</style>
+                <weight>bold</weight>
+                <underlined>0</underlined>
+              </font>
+              <label>Create/Open New Project...</label>
+            </object>
+            <option>1</option>
+            <flag>wxBOTTOM|wxEXPAND</flag>
+            <border>6</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticLine" name="xxx"/>
+            <option>0</option>
+            <flag>wxBOTTOM|wxLEFT|wxRIGHT|wxEXPAND|</flag>
+            <border>10</border>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <object class="sizeritem">
+            <object class="wxStaticText" name="S1">
+              <label>Project name:</label>
+            </object>
+            <option>0</option>
+            <flag>wxALIGN_LEFT</flag>
+          </object>
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="wizprojectname" subclass="common.TextCtrlXRC">
+              <value>(Untitled)</value>
+              <font>
+                <size>8</size>
+                <style>normal</style>
+                <weight>normal</weight>
+                <underlined>0</underlined>
+                <family>default</family>
+              </font>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="spacer">
+        <size>0,10</size>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <object class="sizeritem">
+            <object class="wxCheckBox" name="wizUseDefaultLocation">
+              <label>Use default location</label>
+              <checked>1</checked>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+          </object>
+          <orient>wxHORIZONTAL</orient>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="spacer">
+        <size>0,10</size>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <object class="sizeritem">
+            <object class="wxStaticText" name="S2">
+              <label>Location:</label>
+            </object>
+            <option>0</option>
+            <flag>wxALIGN_LEFT</flag>
+          </object>
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="wizprojectpath" subclass="common.TextCtrlXRC">
+              <value>workspace</value>
+              <font>
+                <size>8</size>
+                <style>normal</style>
+                <weight>normal</weight>
+                <underlined>0</underlined>
+                <family>default</family>
+              </font>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxButton" name="wizprojectpathBrowse">
+              <label>Browse...</label>
+              <font>
+                <size>8</size>
+                <style>normal</style>
+                <weight>normal</weight>
+                <underlined>0</underlined>
+                <family>default</family>
+              </font>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>0</option>
+            <flag>wxALIGN_RIGHT</flag>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxALIGN_RIGHT</flag>
+      </object>
+      <object class="spacer">
+        <size>0,10</size>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <object class="sizeritem">
+            <object class="wxStaticText" name="S3">
+              <label>Open an existing project:</label>
+              <size>20</size>
+              <style/>
+            </object>
+            <option>0</option>
+            <flag>wxEXPAND</flag>
+          </object>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxListCtrl" name="wizprojectlist">
+              <size>300,75</size>
+              <style>wxLC_REPORT|wxLC_SINGLE_SEL</style>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+          </object>
+        </object>
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+      </object>
+    </object>
+  </object>
+  <object class="wxPanel" name="project_WizardPage_2">
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="S4">
+              <style>wxALIGN_CENTRE</style>
+              <font>
+                <size>14</size>
+                <family>default</family>
+                <style>normal</style>
+                <weight>bold</weight>
+                <underlined>0</underlined>
+              </font>
+              <label>Additional informations...</label>
+            </object>
+            <option>1</option>
+            <flag>wxBOTTOM|wxEXPAND</flag>
+            <border>6</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticLine" name="xxx"/>
+            <option>0</option>
+            <flag>wxBOTTOM|wxLEFT|wxRIGHT|wxEXPAND|</flag>
+            <border>10</border>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <object class="sizeritem">
+            <object class="wxStaticText" name="S5">
+              <label>Description:</label>
+            </object>
+            <option>0</option>
+            <flag>wxEXPAND</flag>
+          </object>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="wizprojectdescription" subclass="common.TextCtrlXRC">
+              <size>300,200</size>
+              <value>None</value>
+              <font>
+                <size>8</size>
+                <style>normal</style>
+                <weight>normal</weight>
+                <underlined>0</underlined>
+                <family>default</family>
+              </font>
+              <style>wxTE_AUTO_SCROLL|wxTE_MULTILINE</style>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+          </object>
+        </object>
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+      </object>
+    </object>
+  </object>
+  <object class="wxPanel" name="dataset_Page_1">
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxBoxSizer">
+              <orient>wxHORIZONTAL</orient>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>Add a new dataset</label>
+                  <font>
+                    <size>14</size>
+                    <style>normal</style>
+                    <weight>bold</weight>
+                    <underlined>0</underlined>
+                    <family>default</family>
+                  </font>
+                  <style>wxALIGN_CENTRE</style>
+                </object>
+                <option>1</option>
+                <flag>wxALL|wxEXPAND</flag>
+                <border>5</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxBitmapButton" name="ID_HELP">
+                  <bitmap>images\icons\info.gif</bitmap>
+                  <style>wxNO_BORDER</style>
+                  <XRCED>
+                    <assign_var>1</assign_var>
+                  </XRCED>
+                </object>
+                <option>0</option>
+                <flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTRE_VERTICAL</flag>
+                <border>5</border>
+              </object>
+            </object>
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticLine" name=""/>
+            <option>0</option>
+            <flag>wxALL|wxEXPAND|</flag>
+            <border>5</border>
+            <minsize>500,1</minsize>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <object class="sizeritem">
+            <object class="wxStaticText" name="">
+              <label>Dataset Name: </label>
+            </object>
+            <option>0</option>
+            <flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTRE_VERTICAL</flag>
+            <border>5</border>
+          </object>
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="ID_DATASETNAME" subclass="common.TextCtrlXRC">
+              <value>Untitled</value>
+              <font>
+                <size>8</size>
+                <style>normal</style>
+                <weight>normal</weight>
+                <underlined>0</underlined>
+                <family>default</family>
+              </font>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <object class="sizeritem">
+            <object class="wxStaticText" name="">
+              <label>Description:</label>
+            </object>
+            <option>0</option>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+          </object>
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="ID_DATASETDESCRIPTION" subclass="common.TextCtrlXRC">
+              <font>
+                <size>8</size>
+                <style>normal</style>
+                <weight>normal</weight>
+                <underlined>0</underlined>
+                <family>default</family>
+              </font>
+              <style>wxTE_AUTO_SCROLL|wxTE_MULTILINE</style>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxCheckBox" name="ID_DATASETTYPE">
+              <label>Load an experimental spectrum? </label>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxRadioBox" name="ID_EXPERIMENTALFORMAT">
+              <label>Format</label>
+              <content>
+                <item>Bruker</item>
+                <item>Varian</item>
+              </content>
+              <selection>0</selection>
+              <style>wxRA_SPECIFY_ROWS</style>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>0</option>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxRadioBox" name="ID_EXPERIMENTALTYPE">
+              <label>Filter</label>
+              <content>
+                <item>1D</item>
+              </content>
+              <selection>0</selection>
+              <style>wxRA_SPECIFY_ROWS</style>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxBoxSizer">
+              <orient>wxHORIZONTAL</orient>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="ID_EXPERIMENTALLABEL3">
+                  <label>To load a spectrum, double-click on the corresponding item. </label>
+                  <font>
+                    <size>8</size>
+                    <style>italic</style>
+                    <weight>normal</weight>
+                    <underlined>0</underlined>
+                    <family>swiss</family>
+                    <face>Tahoma</face>
+                    <encoding>windows-1252</encoding>
+                  </font>
+                </object>
+                <flag>wxLEFT|wxRIGHT|wxEXPAND</flag>
+                <border>5</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxCheckBox" name="ID_PREVIEW">
+                  <label>Preview?</label>
+                  <checked>1</checked>
+                  <XRCED>
+                    <assign_var>1</assign_var>
+                  </XRCED>
+                </object>
+                <flag>wxALIGN_RIGHT</flag>
+              </object>
+            </object>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxBoxSizer">
+              <orient>wxHORIZONTAL</orient>
+              <object class="sizeritem">
+                <object class="wxTreeCtrl" name="ID_EXPERIMENTALFILELIST">
+                  <font>
+                    <size>8</size>
+                    <style>normal</style>
+                    <weight>normal</weight>
+                    <underlined>0</underlined>
+                    <family>default</family>
+                  </font>
+                  <style>wxTR_HAS_BUTTONS|wxTR_HIDE_ROOT|wxTR_SINGLE|wxTR_DEFAULT_STYLE</style>
+                  <XRCED>
+                    <assign_var>1</assign_var>
+                  </XRCED>
+                </object>
+                <option>1</option>
+                <flag>wxALL|wxEXPAND</flag>
+                <border>5</border>
+                <minsize>200,200</minsize>
+              </object>
+              <object class="sizeritem">
+                <object class="wxPanel" name="ID_EXPERIMENTALPREVIEW">
+                  <style>wxSUNKEN_BORDER</style>
+                </object>
+                <option>1</option>
+                <flag>wxALL|wxEXPAND</flag>
+                <border>5</border>
+              </object>
+            </object>
+            <option>1</option>
+            <flag>wxALL|wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxBoxSizer">
+              <object class="sizeritem">
+                <object class="wxStaticText" name="ID_EXPERIMENTALLABEL2">
+                  <label>Selected spectrum:  </label>
+                </object>
+                <option>0</option>
+                <flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTRE_VERTICAL</flag>
+                <border>5</border>
+              </object>
+              <orient>wxHORIZONTAL</orient>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="ID_EXPERIMENTALNAME" subclass="common.TextCtrlXRC">
+                  <font>
+                    <size>8</size>
+                    <style>normal</style>
+                    <weight>normal</weight>
+                    <underlined>0</underlined>
+                    <family>default</family>
+                  </font>
+                  <style>wxTE_READONLY</style>
+                  <XRCED>
+                    <assign_var>1</assign_var>
+                  </XRCED>
+                </object>
+                <option>1</option>
+                <flag>wxTOP|wxLEFT|wxRIGHT|wxEXPAND</flag>
+                <border>5</border>
+              </object>
+            </object>
+            <option>0</option>
+            <flag>wxEXPAND</flag>
+          </object>
+        </object>
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="ID_EXPERIMENTALLABEL1">
+          <label>Root of the experiment's folders:</label>
+        </object>
+        <option>0</option>
+        <flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTRE_VERTICAL</flag>
+        <border>5</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="ID_EXPERIMENTALDIR" subclass="common.TextCtrlXRC">
+              <font>
+                <size>8</size>
+                <style>normal</style>
+                <weight>normal</weight>
+                <underlined>0</underlined>
+                <family>default</family>
+              </font>
+              <style>wxTE_READONLY</style>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <border>5</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="ID_REFRESH">
+              <label>Refresh</label>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>0</option>
+            <flag>wxRIGHT|wxALIGN_RIGHT|wxALIGN_CENTRE_VERTICAL</flag>
+            <border>5</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="ID_BROWSE">
+              <label>Browse</label>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>0</option>
+            <flag>wxRIGHT|wxALIGN_RIGHT|wxALIGN_CENTRE_VERTICAL</flag>
+            <border>5</border>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+    </object>
+  </object>
+  <object class="wxPanel" name="dataset_Page_2">
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxBoxSizer">
+              <orient>wxHORIZONTAL</orient>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>Setup script</label>
+                  <font>
+                    <size>14</size>
+                    <style>normal</style>
+                    <weight>bold</weight>
+                    <underlined>0</underlined>
+                    <family>default</family>
+                  </font>
+                  <style>wxALIGN_CENTRE</style>
+                </object>
+                <option>1</option>
+                <flag>wxALL|wxEXPAND</flag>
+                <border>5</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxBitmapButton" name="ID_HELP">
+                  <bitmap>images\icons\info.gif</bitmap>
+                  <style>wxNO_BORDER</style>
+                  <XRCED>
+                    <assign_var>1</assign_var>
+                  </XRCED>
+                </object>
+                <option>0</option>
+                <flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTRE_VERTICAL</flag>
+                <border>5</border>
+              </object>
+            </object>
+            <option>0</option>
+            <flag>wxEXPAND</flag>
+            <minsize>400,10</minsize>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticLine" name=""/>
+            <option>0</option>
+            <flag>wxALL|wxEXPAND|</flag>
+            <border>5</border>
+            <minsize>400,1</minsize>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+        <minsize>500,200</minsize>
+        <ratio>4</ratio>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxCheckBox" name="ID_FROMSCRIPT">
+              <label>Load script from a model?</label>
+              <checked>1</checked>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>0</option>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <object class="sizeritem">
+            <object class="wxStaticText" name="ID_SCRIPTMODELLABEL">
+              <label>Model selection:</label>
+            </object>
+            <option>0</option>
+            <flag>wxEXPAND</flag>
+            <border>5</border>
+          </object>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxListCtrl" name="ID_SCRIPTMODELLIST">
+              <style>wxLC_REPORT|wxLC_SINGLE_SEL</style>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <border>5</border>
+          </object>
+        </object>
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <minsize>400,300</minsize>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <object class="sizeritem">
+            <object class="wxStaticText" name="ID_SCRIPTNAMELABEL">
+              <label>Model name:</label>
+            </object>
+            <option>0</option>
+            <flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTRE_VERTICAL</flag>
+            <border>5</border>
+          </object>
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="ID_SCRIPTNAME" subclass="common.TextCtrlXRC">
+              <value>Default</value>
+              <font>
+                <size>8</size>
+                <style>normal</style>
+                <weight>normal</weight>
+                <underlined>0</underlined>
+                <family>default</family>
+              </font>
+              <style>wxTE_READONLY</style>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+          </object>
+        </object>
+        <option>0</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxButton" name="ID_SCRIPTASSISTANT">
+          <label>go to script generator...</label>
+          <XRCED>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <flag>wxALL|wxALIGN_LEFT</flag>
+        <border>5</border>
+      </object>
+    </object>
+  </object>
+  <object class="wxPanel" name="ProjectInfoPage">
+    <style/>
+    <object class="wxStaticBoxSizer">
+      <label>Description/Comments</label>
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxTextCtrl" name="ID_PROJECTDESCRIPTION" subclass="common.TextCtrlXRC">
+          <font>
+            <size>8</size>
+            <style>normal</style>
+            <weight>normal</weight>
+            <underlined>0</underlined>
+            <family>default</family>
+          </font>
+          <XRCED>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+      </object>
+    </object>
+  </object>
+  <object class="wxFrame" name="ParentFrame">
+    <object class="wxMenuBar" name="MainMenu">
+      <object class="wxMenu" name="MenuFile">
+        <object class="wxMenuItem" name="FILE_NEWPRJ">
+          <label>New Project</label>
+          <bitmap>images\icons\menufile\project_new.gif</bitmap>
+          <help>Create a new project</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="FILE_SAVE">
+          <label>Save project</label>
+          <bitmap>images\icons\menufile\save.gif</bitmap>
+          <accel>CTRL+S</accel>
+          <help>Save project</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="FILE_SAVEAS">
+          <label>Save project as...</label>
+          <bitmap>images\icons\menufile\saveas.gif</bitmap>
+          <help>Save project as...</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="FILE_REVERT">
+          <label>Revert...</label>
+          <bitmap>images\icons\menufile\revert.gif</bitmap>
+          <help>Revert to the last saved version of the current project</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="FILE_ADDDATASET">
+          <label>Add Dataset</label>
+          <bitmap>images\icons\menufile\dataset_add.gif</bitmap>
+          <help>Add a new dataset</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="FILE_REMOVEDATASET">
+          <label>Remove Dataset</label>
+          <bitmap>images\icons\menufile\dataset_close.gif</bitmap>
+          <accel>CTRL+W</accel>
+          <help>Remove current dataset</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="FILE_REMOVEALLDATASET">
+          <label>Remove All Dataset</label>
+          <bitmap>images\icons\menufile\dataset_closeall.gif</bitmap>
+          <accel>CTRL+SHIFT+W</accel>
+          <help>Remove all dataset</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="FILE_RENAME">
+          <label>Rename</label>
+          <help>Rename current file</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="FILE_PAGESETUP">
+          <label>Page setup</label>
+          <bitmap>images\icons\parameter.gif</bitmap>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="FILE_PRINT">
+          <label>Print</label>
+          <bitmap>images\icons\print.gif</bitmap>
+          <accel>CTRL+P</accel>
+          <help>Print the current file</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="EXIT">
+          <label>Exit pyPulsar</label>
+          <bitmap>images\icons\menufile\exit.gif</bitmap>
+          <accel>CTRL+Q</accel>
+          <help>Exit application</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <label>File</label>
+      </object>
+      <object class="wxMenu" name="MenuEdit">
+        <object class="wxMenuItem" name="EDIT_SAVEPAGE">
+          <label>Save current page</label>
+          <bitmap>images\icons\menufile\save.gif</bitmap>
+          <accel>CTRL+ W</accel>
+          <help>Save page</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="EDIT_IMPORT">
+          <label> Import script</label>
+          <bitmap>images\icons\menufile\file_import.gif</bitmap>
+          <help>Open or Import script...</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="EDIT_EXPORT">
+          <label> Export script ...</label>
+          <bitmap>images\icons\menufile\file_export.gif</bitmap>
+          <help>Save  or Export script...</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="EDIT_UNDO">
+          <label>Undo</label>
+          <bitmap>images\icons\undo_edit.gif</bitmap>
+          <accel>CTRL+Z</accel>
+          <help>Undo last editing</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="EDIT_REDO">
+          <label>Redo</label>
+          <bitmap>images\icons\redo_edit.gif</bitmap>
+          <accel>CTRL+Y</accel>
+          <help>Redo last change</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="EDIT_CUT">
+          <label>Cut</label>
+          <bitmap>images\icons\cut_edit.gif</bitmap>
+          <accel>CTRL+X</accel>
+          <help>Cut selection</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="EDIT_COPY">
+          <label>Copy</label>
+          <bitmap>images\icons\copy_edit.gif</bitmap>
+          <accel>CTRL+C</accel>
+          <help>Copy selection</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="EDIT_PASTE">
+          <label>Paste</label>
+          <bitmap>images\icons\paste_edit.gif</bitmap>
+          <accel>CTRL+V</accel>
+          <help>Paste selection</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="EDIT_DELETE">
+          <label>Delete selection</label>
+          <bitmap>images\icons\delete_edit.gif</bitmap>
+          <accel>CTRL+D</accel>
+          <help>Delete selection</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="EDIT_SELECTALL">
+          <label>Select all</label>
+          <accel>CTRL+A</accel>
+          <help>Select everything in the script</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="EDIT_CLEARALL">
+          <label>Clear all</label>
+          <accel>CTRL+SHIFT+D</accel>
+          <help>Clear everything in the script</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="EDIT_COMMENT">
+          <label>Comment </label>
+          <bitmap>images\icons\script_comment.gif</bitmap>
+          <accel>CTRL+3</accel>
+          <help>Comment the current selected line(s)</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="EDIT_UNCOMMENT">
+          <label>Uncomment</label>
+          <bitmap>images\icons\script_uncomment.gif</bitmap>
+          <accel>CTRL+SHIFT+3</accel>
+          <help>Uncomment the current selected line(s) </help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <label>Edit</label>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="EDIT_SEARCH">
+          <label>Search/Replace</label>
+          <bitmap>images\icons\searchrecord.gif</bitmap>
+          <accel>CTRL+F</accel>
+          <help>Search or replace</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+      </object>
+      <object class="wxMenu" name="MenuCommand">
+        <object class="wxMenuItem" name="COMMAND_COMPUTE">
+          <label>Execute the current script</label>
+          <bitmap>images\icons\run_exec.gif</bitmap>
+          <accel>CTRL+R</accel>
+          <help>Execute the currently selected script</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="COMMAND_STOP">
+          <label>Stop script execution</label>
+          <bitmap>images\icons\stop.gif</bitmap>
+          <accel>CTRL+DEL</accel>
+          <help>Stop the current script execution</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="COMMAND_FIT">
+          <label>Execute fitting commands</label>
+          <bitmap>images\icons\fit.gif</bitmap>
+          <accel>CTRL+ALT+R</accel>
+          <help>Execute fitting commands</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <label>Execute</label>
+      </object>
+      <object class="wxMenu" name="MenuSpectrum">
+        <object class="wxMenuItem" name="SPECTRUM_OPTIONS">
+          <label>Display configuration</label>
+          <bitmap>images\icons\image_obj.gif</bitmap>
+          <help>Open the configuration dialog</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="SPECTRUM_EXPORT">
+          <label> Export spectrum ...</label>
+          <bitmap>images\icons\menufile\file_export.gif</bitmap>
+          <help>Save  or Export spectrum...</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="SPECTRUM_FREEZE">
+          <label>Freeze</label>
+          <bitmap>images\icons\cursor.gif</bitmap>
+          <accel>F7</accel>
+          <help>Stop moving or zooming</help>
+          <radio>1</radio>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="SPECTRUM_ZOOM">
+          <label>Zoom</label>
+          <bitmap>images\icons\zoom.gif</bitmap>
+          <accel>F6</accel>
+          <help>Zoom the rectangle area</help>
+          <radio>1</radio>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="SPECTRUM_PAN">
+          <label>Move</label>
+          <bitmap>images\icons\pan.gif</bitmap>
+          <accel>F5</accel>
+          <help>Pan with left, zoom with right</help>
+          <radio>1</radio>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="SPECTRUM_UNDO">
+          <label>Undo</label>
+          <bitmap>images\icons\undo_edit.gif</bitmap>
+          <accel>CTRL+Z</accel>
+          <help>Undo last editing</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="SPECTRUM_REDO">
+          <label>Redo</label>
+          <bitmap>images\icons\redo_edit.gif</bitmap>
+          <accel>CTRL+Y</accel>
+          <help>Redo last change</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="SPECTRUM_RESET">
+          <label>Reset</label>
+          <bitmap>images\icons\reset.gif</bitmap>
+          <accel>CTRL+SHIFT+Z</accel>
+          <help>Reset original view</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="separator"/>
+        <label>Spectrum</label>
+        <object class="wxMenuItem" name="SPECTRUM_BROADENING">
+          <label>Line broadening</label>
+          <bitmap>images\icons\variable.gif</bitmap>
+          <help>Define and apply line broadening</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+      </object>
+      <object class="wxMenu" name="MenuOptions">
+        <object class="wxMenu" name="MenuLog">
+          <label>Adjust log level</label>
+          <object class="wxMenuItem" name="OPTIONS_LOGERROR">
+            <label>Error log level</label>
+            <help>No log output : Script runs silently</help>
+            <radio>1</radio>
+            <XRCED>
+              <events>EVT_MENU|EVT_UPDATE_UI</events>
+              <assign_var>1</assign_var>
+            </XRCED>
+          </object>
+          <help>Set log level for the information to display in the console window</help>
+          <object class="wxMenuItem" name="OPTIONS_LOGWARNING">
+            <label>Warning log level</label>
+            <help>Alert for errors and warning only</help>
+            <radio>1</radio>
+            <XRCED>
+              <events>EVT_MENU|EVT_UPDATE_UI</events>
+              <assign_var>1</assign_var>
+            </XRCED>
+          </object>
+          <object class="wxMenuItem" name="OPTIONS_LOGINFO">
+            <label>Info log level</label>
+            <help>Display some informations about the running calculation</help>
+            <radio>1</radio>
+            <checked>1</checked>
+            <XRCED>
+              <events>EVT_MENU|EVT_UPDATE_UI</events>
+              <assign_var>1</assign_var>
+            </XRCED>
+          </object>
+          <object class="wxMenuItem" name="OPTIONS_LOGVERBOSE">
+            <label>Verbose log level</label>
+            <help>A lot info will be displayed (Warning: this  affect speedness of calculation)</help>
+            <radio>1</radio>
+            <XRCED>
+              <events>EVT_MENU|EVT_UPDATE_UI</events>
+              <assign_var>1</assign_var>
+            </XRCED>
+          </object>
+          <object class="wxMenuItem" name="OPTIONS_LOGDEBUG">
+            <label>Debug</label>
+            <help>Reserved to developpers</help>
+            <radio>1</radio>
+            <XRCED>
+              <events>EVT_MENU|EVT_UPDATE_UI</events>
+              <assign_var>1</assign_var>
+            </XRCED>
+          </object>
+        </object>
+        <label>Options</label>
+      </object>
+      <object class="wxMenu" name="MenuHelp">
+        <object class="wxMenuItem" name="HELP_CONTEXT">
+          <label>Help on ...</label>
+          <bitmap>images\icons\help_context.gif</bitmap>
+          <accel>F1</accel>
+          <help>Context help</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="HELP_DOC">
+          <label>Online documentation</label>
+          <bitmap>images\icons\help_doc.gif</bitmap>
+          <accel>F12</accel>
+          <help>Online documention</help>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <object class="wxMenuItem" name="HELP_ABOUT">
+          <label>About pyPulsar</label>
+          <bitmap>images\icons\help_about.gif</bitmap>
+          <XRCED>
+            <events>EVT_MENU|EVT_UPDATE_UI</events>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <label>Help</label>
+      </object>
+    </object>
+    <size>950, 700</size>
+    <centered>1</centered>
+    <style>wxDEFAULT_FRAME_STYLE</style>
+  </object>
+  <object class="wxDialog" name="InfoDlg">
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxTextCtrl" name="_INFO">
+          <value>INFORMATION</value>
+          <fg>#400040</fg>
+          <bg>#EFEFEF</bg>
+          <style>wxNO_BORDER|wxTE_READONLY|wxTE_CENTRE</style>
+          <XRCED>
+            <assign_var>1</assign_var>
+          </XRCED>
+        </object>
+        <option>0</option>
+        <flag>wxALL|wxALIGN_CENTRE|wxALIGN_CENTRE_VERTICAL|wxALIGN_CENTRE_HORIZONTAL|wxADJUST_MINSIZE</flag>
+        <border>8</border>
+        <minsize>400,20</minsize>
+      </object>
+    </object>
+    <size>300,50</size>
+    <title>Plotting...</title>
+    <centered>1</centered>
+    <icon stock_id="wxART_INFORMATION"/>
+    <style>wxSIMPLE_BORDER|wxDEFAULT_DIALOG_STYLE|wxSTAY_ON_TOP</style>
+  </object>
+</resource>

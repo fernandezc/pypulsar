@@ -1,0 +1,11 @@
+
+WARNING:
+
+This is the developpment version of the branche 0.2 of pyPulsar: 
+- It is probably not yet functional.
+
+current Release version is found in : 
+- https://pypulsar.svn.sourceforge.net/svnroot/pypulsar/tags/...
+
+branch 0.1 last updates (not yet released):
+- https://pypulsar.svn.sourceforge.net/svnroot/pypulsar/branches/0.1
