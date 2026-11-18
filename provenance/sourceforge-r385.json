@@ -5,8 +5,6 @@
   "svn_repository": "https://svn.code.sf.net/p/pypulsar/code/",
   "svn_revision": 385,
   "svn_path": "trunk",
-  "embedded_version": "0.2.alpha1.0-383",
-  "embedded_version_date": "2008-07-24 7:53:32",
   "snapshot_git_commit": "d3e025dd8a3a7bf8837d2bc142cfcc22fa10bb10",
   "source_file_count": 238,
   "files": [
@@ -1438,5 +1436,20 @@
       "size": 113,
       "executable": false
     }
-  ]
+  ],
+  "version_metadata": {
+    "pypulsar/version.py": {
+      "version": "0.2.alpha1.-46-337",
+      "date": "2008-06-10 6:44:25"
+    },
+    "pypulsar/build/version.py": {
+      "version": "0.2.alpha1.0-383",
+      "date": "2008-07-24 7:53:32"
+    },
+    "version.py": {
+      "project_version": "0.2",
+      "project_revision": "197",
+      "date": "2007-05-08T19:03:51.174462Z"
+    }
+  }
 }

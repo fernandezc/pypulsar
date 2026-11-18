@@ -7,7 +7,7 @@ authors:
     given-names: Jean-Paul
   - family-names: Fernandez
     given-names: Christian
-version: "0.2.alpha1.0-383 (SourceForge SVN r385 snapshot)"
+version: "SourceForge SVN r385 (trunk snapshot)"
 repository-code: "https://github.com/fernandezc/pypulsar"
 url: "https://sourceforge.net/projects/pypulsar/"
 abstract: "Historical SourceForge source snapshot preserved as a reference for subsequent SpectroChemPy NMR development. Project-owned code has an additional CeCILL-B grant; third-party components retain their original terms."

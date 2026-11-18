@@ -11,8 +11,13 @@ for [SpectroChemPy](https://github.com/spectrochempy/spectrochempy) and its
 ## Preserved version
 
 The imported archive is **SourceForge SVN revision 385, `trunk`**.
-The embedded application version is `0.2.alpha1.0-383`, dated 24 July 2008;
-the top-level `version.py` contains older build metadata. Both are preserved.
+The archive contains differing version metadata, all preserved:
+
+- `pypulsar/version.py`: `0.2.alpha1.-46-337` (10 June 2008);
+- `pypulsar/build/version.py`: `0.2.alpha1.0-383` (24 July 2008);
+- top-level `version.py`: project `0.2`, revision `197` (8 May 2007).
+
+The unambiguous identifier for this import is the SVN **r385 trunk snapshot**.
 The original [development warning](WARNING.txt) remains part of the snapshot.
 
 - [`sourceforge-r385`](https://github.com/fernandezc/pypulsar/tree/sourceforge-r385)

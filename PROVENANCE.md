@@ -6,7 +6,10 @@
 - Archive supplied by Christian Fernandez: `pypulsar-code-r385-trunk.zip`.
 - Archive SHA-256: `b0230a2ee48395c523f3a91d2e2b499e1a64c67165a91567d3414ba0b8a25c11`.
 - Imported files: **238** (1,079,683 uncompressed bytes).
-- Embedded application version: `0.2.alpha1.0-383`, dated `2008-07-24 7:53:32`.
+- Preserved application version metadata: `pypulsar/version.py` reports
+  `0.2.alpha1.-46-337` (10 June 2008); `pypulsar/build/version.py` reports
+  `0.2.alpha1.0-383` (24 July 2008); top-level `version.py` reports project
+  `0.2`, revision `197` (8 May 2007).
 - GitHub preservation/publication: **18 November 2026**.
 
 The ZIP's one enclosing directory was removed when placing its contents at the
@@ -22,7 +25,7 @@ subsequent additions. The tag and manifest provide a reference independent of
 those later additions.
 
 This import does not reconstruct SVN commit history or assert that the snapshot
-was a stable release. The original development warning and both original
+was a stable release. The original development warning and all original
 version metadata files remain available. Preservation verification checks file
 identity; it does not execute the old GUI, scripts or Fortran engine.
 
