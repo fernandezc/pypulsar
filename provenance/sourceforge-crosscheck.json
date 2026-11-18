@@ -1,0 +1,29 @@
+{
+  "svn_revision": 385,
+  "files": [
+    {
+      "path": "pypulsar/functions.py",
+      "url": "https://svn.code.sf.net/p/pypulsar/code/!svn/bc/385/trunk/pypulsar/functions.py",
+      "sha256": "74140f4201a9e5ef99092768b5a31f96361d0e00dde146b823acc449c282c151",
+      "matches_archive": true
+    },
+    {
+      "path": "pypulsar/version.py",
+      "url": "https://svn.code.sf.net/p/pypulsar/code/!svn/bc/385/trunk/pypulsar/version.py",
+      "sha256": "7cb22c5c9ec6f69c8628b3fba4b460954a41568bb072b250f44e2c9294c38769",
+      "matches_archive": true
+    },
+    {
+      "path": "pulsar/parameters.f90",
+      "url": "https://svn.code.sf.net/p/pypulsar/code/!svn/bc/385/trunk/pulsar/parameters.f90",
+      "sha256": "8fc1950f8d28880da4afe2da59cf04086fd7d6d74a0919b830d1986e18572285",
+      "matches_archive": true
+    },
+    {
+      "path": "WARNING.txt",
+      "url": "https://svn.code.sf.net/p/pypulsar/code/!svn/bc/385/trunk/WARNING.txt",
+      "sha256": "d495d6c25b23a7c017edcbd63983a40941f63448ac32b491800ce3401ed9c429",
+      "matches_archive": true
+    }
+  ]
+}

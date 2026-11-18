@@ -1,0 +1,1442 @@
+{
+  "archive": "pypulsar-code-r385-trunk.zip",
+  "archive_sha256": "b0230a2ee48395c523f3a91d2e2b499e1a64c67165a91567d3414ba0b8a25c11",
+  "sourceforge_project": "https://sourceforge.net/projects/pypulsar/",
+  "svn_repository": "https://svn.code.sf.net/p/pypulsar/code/",
+  "svn_revision": 385,
+  "svn_path": "trunk",
+  "embedded_version": "0.2.alpha1.0-383",
+  "embedded_version_date": "2008-07-24 7:53:32",
+  "snapshot_git_commit": "d3e025dd8a3a7bf8837d2bc142cfcc22fa10bb10",
+  "source_file_count": 238,
+  "files": [
+    {
+      "path": "WARNING.txt",
+      "sha256": "d495d6c25b23a7c017edcbd63983a40941f63448ac32b491800ce3401ed9c429",
+      "size": 342,
+      "executable": false
+    },
+    {
+      "path": "pulsar/compiler.bat",
+      "sha256": "f65350220fd43b2155802be7be5252f1c44df0e0a1a67c6b825207e6799875ab",
+      "size": 2665,
+      "executable": false
+    },
+    {
+      "path": "pulsar/compute.f90",
+      "sha256": "7e72529dc10bc94fe72a308259c8c01e1b6a32917b01de37c9f819bee959d26b",
+      "size": 36637,
+      "executable": false
+    },
+    {
+      "path": "pulsar/diagonalize.f90",
+      "sha256": "38e9391442de909277172eaa8ac5f236b790880e2e8a0061bfa512c84586843e",
+      "size": 8328,
+      "executable": false
+    },
+    {
+      "path": "pulsar/forpulsar.f90",
+      "sha256": "e77693f9591e3b3fc1bd1533e5e017f9d090084b504eab75bd33a0453fe59379",
+      "size": 1390,
+      "executable": false
+    },
+    {
+      "path": "pulsar/fourier.f90",
+      "sha256": "1545f86b56d9bc4df32778f6a0088d6048bb67aaf5c28b7a9456d35df3848e9e",
+      "size": 11137,
+      "executable": false
+    },
+    {
+      "path": "pulsar/ll.f90",
+      "sha256": "c9a9ddbc77316a5c7daca9b8f5792f39eecb5c704e5e72a0fea3301e6239b004",
+      "size": 22287,
+      "executable": false
+    },
+    {
+      "path": "pulsar/operators.f90",
+      "sha256": "a9726920efd3f143a611540653f7a1b76447cb52deee30adb9e3983ccbe958b9",
+      "size": 5557,
+      "executable": false
+    },
+    {
+      "path": "pulsar/parameters.f90",
+      "sha256": "8fc1950f8d28880da4afe2da59cf04086fd7d6d74a0919b830d1986e18572285",
+      "size": 9001,
+      "executable": false
+    },
+    {
+      "path": "pulsar/share.f90",
+      "sha256": "b7cb02b5f98dacf2a3734503e73b6b5fb4ea72f442afa404f3fb8ee40cfdef3c",
+      "size": 12063,
+      "executable": false
+    },
+    {
+      "path": "pulsar/subroutines.f90",
+      "sha256": "0ace0356fdba70a0368d2c6e690ba97d185d33c20f6287263711c233cd7afde5",
+      "size": 6417,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/README.html",
+      "sha256": "a19757cae81601eee147a3432e235af97ef9e786e054a1685a24b252e374767d",
+      "size": 2509,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/__init__.py",
+      "sha256": "40b936a8788393c2df7af5bb15566e22e6863667f1a72a6a1533d0e16bccda67",
+      "size": 65,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/book.py",
+      "sha256": "072c671868a2d2eaf4227e7ce0ebd407811b968bcee8d58376960937e6a1b865",
+      "size": 723,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/build/AUTHORS.rtf",
+      "sha256": "2ee99b9aaa55766e371faf8abebe44f5a000fad4b4526e5d611b04c6f581d180",
+      "size": 5271,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/build/CHANGES.rtf",
+      "sha256": "f71c61ca202d203b2b2451f6011b03026df412e7c2bf242f99bdb80aa47c1738",
+      "size": 331,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/build/COPYING.rtf",
+      "sha256": "038e6703ffc7b8cdfd22fc65cc194f2e4defefb09475e21bf5fb63d7e9158123",
+      "size": 16760,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/build/INSTALL.rtf",
+      "sha256": "2d647e965b92e8017561bcd98ff63f4e56e36ba193f7a2a58b4fc760d0267646",
+      "size": 58,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/build/NEWS.rtf",
+      "sha256": "1205df9fa874e399210ed2e92ba509aa569b79fc8577f7f698f87030d6cb3205",
+      "size": 333,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/build/README.rtf",
+      "sha256": "d54e783326cff043b00a487055b521cf36e28ed52d8c9b39e104152109dca504",
+      "size": 1161,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/build/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/build/build_pypulsar.py",
+      "sha256": "265a864ea663dc57696480b7e8ed548ca36100368976c4dae5bdd5e3a9900857",
+      "size": 6067,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/build/pyPulsar.iss",
+      "sha256": "66daf883f1c936d275eb24c6162f7d7617b0d6e3cd45ca909f04e7c8352f51b7",
+      "size": 5136,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/build/pypulsar.spec",
+      "sha256": "e9f864e591f5ad8ab78d80bd56d54543fcba79562137f89d5a3c3848b3a50901",
+      "size": 3181,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/build/version.py",
+      "sha256": "ce73676c226d1b6c239fd75ad36998f2cab3c31f4af1223710387eadb90ec551",
+      "size": 174,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/common.py",
+      "sha256": "69b944bb52f14c04861dc98229077ba795478dbdf492011dfdaf2626f220f1ee",
+      "size": 32937,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/definitions.py",
+      "sha256": "23a544e770866cecbf5afdb58895759d7a4cec0536080294de857a6f58955852",
+      "size": 7405,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/document.py",
+      "sha256": "a786518f5a6dc6d066bbbc35016dd32802020df7c2e91723fae40f4fcb005eec",
+      "size": 9577,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/editor.py",
+      "sha256": "9c511c6625f8105d25d8228e086b89115b457c92ed523a7136d6b5f0ef0ff3f9",
+      "size": 7693,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/enhancedstatusbar.py",
+      "sha256": "88efac2cbfa018ceeacfecbac540b5f01d26d9d189efc707f7d140c4054668eb",
+      "size": 9997,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/error.py",
+      "sha256": "3cd951874fee85e6c8dbb2e4db5a1bbce646f4841ab2c6892262d5c1707ad204",
+      "size": 2324,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/experimental.py",
+      "sha256": "ae06fc71fd0629e8947b1c997c3ac050ca5c7e4ea25c935fb22110c76b00c81d",
+      "size": 29342,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/figcanvas.py",
+      "sha256": "4062cb39a162277edcbcd87883875aa6d82a871bcd8f0ffbf89f7915068f71de",
+      "size": 11105,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/fit.py",
+      "sha256": "570037478fa397aa133302334074ba08ee5e47614ad5da7217a60b102134b22f",
+      "size": 12169,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/frame.py",
+      "sha256": "f98863e7c9e98e57129916e446babf1d29caad5295866cd3859c5ef74db3a5fc",
+      "size": 8727,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/functions.py",
+      "sha256": "74140f4201a9e5ef99092768b5a31f96361d0e00dde146b823acc449c282c151",
+      "size": 102368,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/help.py",
+      "sha256": "5251f28ae02350caed785f335f1d635443323c864c46288675fc77095afb5b01",
+      "size": 3949,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/Export2.gif",
+      "sha256": "05b56f4aa5bcb886c2f74f6b96ec80b50b7284793f3e34727df1ad64cfcdf812",
+      "size": 596,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/alert_obj.gif",
+      "sha256": "0aae5390007ae1cb1390e133471e3d7755d0906e53e5e0783b2af3e9445f8a17",
+      "size": 326,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/clear_all.gif",
+      "sha256": "e557106f2392fbd218ac753d8a67c9daec2ba97f909701221d549ca59e9524e2",
+      "size": 351,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/clear_co.gif",
+      "sha256": "909b1c6d3c27ca1f77ed93cdf66002633785d597e532ce70d3d8e0b8bb0374df",
+      "size": 122,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/close.gif",
+      "sha256": "8da6ecc76eb4f031b3345464410f9309d6e07a61014c0cd24c5574e0a6c32084",
+      "size": 87,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/console.gif",
+      "sha256": "506dbc97b20de53ad9aee7468a8cf0b42ef07cdc51ec5e9700c745213c7696ee",
+      "size": 350,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/copy_edit.gif",
+      "sha256": "9af9359bc9897de726d5e80095700459d7be4c7a5be78c08a630cf267fe7b66c",
+      "size": 594,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/cursor.gif",
+      "sha256": "f5bbf99699af3114ffa54efce29be8747059ef8b77460635605205e4d93100ce",
+      "size": 109,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/cut_edit.gif",
+      "sha256": "a99b45be6a841b1851c35363f4a9f044ea753db35edfd4538d375d242133683c",
+      "size": 212,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/dataset.gif",
+      "sha256": "9671e329b149884710ce62b78f9f4c6851250f9387cf2e673ea3f4be01bb94fd",
+      "size": 353,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/dataset_add.gif",
+      "sha256": "0a2d2b23f2f917bd50d697a00b890ca471e26d78db7e2da5f136f465a3d132ba",
+      "size": 576,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/dataset_close.gif",
+      "sha256": "0c9862922fb37f128b1d0e8c8eaa52abae21cc24ca61e06bc878837cdc00b429",
+      "size": 357,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/dataset_new.gif",
+      "sha256": "0a2d2b23f2f917bd50d697a00b890ca471e26d78db7e2da5f136f465a3d132ba",
+      "size": 576,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/dataset_opened.gif",
+      "sha256": "332dc6ac6d84b366a2f54982cf6772fc4183aa8d11e146780fd0579df877f575",
+      "size": 564,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/any.gif",
+      "sha256": "701b99c50ba23a3d564b87f7bbc70ad4ca45e225c2e80e31605c8047a26eaffd",
+      "size": 899,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/any_modified.gif",
+      "sha256": "f413aef9b51e9496aa5b5c12698fc72e83269c5bc8ee419e64176c4692e92455",
+      "size": 161,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/calcspectra.gif",
+      "sha256": "0bf13b825f8e2f48a725af347a0bbe88b4ac8b8784fc393eac6bfdecfa2053a0",
+      "size": 953,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/calcspectra_modified.gif",
+      "sha256": "9158a03c1202843482fe2d55fa462f2cccf983dd34d29e58f012d9f19d04e580",
+      "size": 968,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/calculated1d.gif",
+      "sha256": "d53bbc1918544df800f218785be6cbb51ed3610e980d482d73475369031c1295",
+      "size": 361,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/calculated1d_modified.gif",
+      "sha256": "953a66aa7524941db9e7c63a2a70640075174c0489cc6e259f33bfb94ddf7b6b",
+      "size": 358,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/calculated2d.gif",
+      "sha256": "a4ef985e9b7631e5cd374316a72e39954186e433d964436a77f8e0181734c107",
+      "size": 1049,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/calculated2d_modified.gif",
+      "sha256": "e50ada88bf4e19f5e7b8a142a2be18604600b69ec0578e0e19ced525470497ab",
+      "size": 1036,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/configuration.gif",
+      "sha256": "4e697dc781205180879f522a12799e48f1ec64c1739740383e0b5ffedf09992a",
+      "size": 907,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/configuration_modified.gif",
+      "sha256": "8e30cf488e86acce395cfab2adefe9caec618ddc2c4fe53611d5cfbed66b9180",
+      "size": 907,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/console.gif",
+      "sha256": "5b0c9d67f61810d3fcf2504a9a3b64759c70e03b89432449a4f479b5c3b19e46",
+      "size": 240,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/console_error.gif",
+      "sha256": "fa95034351a7bf51d2b71c5aa62042cdbafe756531085941f93c3300df0aa5f6",
+      "size": 597,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/console_warning.gif",
+      "sha256": "605b98b2b01f78404e47674bdf87b76571f46baf6ddbc0ef7c566fddb04db37f",
+      "size": 379,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/dataset.gif",
+      "sha256": "47216f9599e3bfdb2fa7a77622538be0cb858e862711f0c247d6ca4e4d433687",
+      "size": 943,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/dataset_modified.gif",
+      "sha256": "fa9614245f6b0589f337bbce74ea10a7cec4a624e8224db54b4a5e1bb3c97706",
+      "size": 351,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/error.gif",
+      "sha256": "47bcb538b7d439e9b517a92b75205430c9142deea615785305d87816cf326e27",
+      "size": 230,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/fit.gif",
+      "sha256": "1f0fc8c681d85339f0f699f26a0ed68f96d0cbffc1c6413f8b96f2d26e947a9c",
+      "size": 214,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/fit_modified.gif",
+      "sha256": "65407fed2c76942eaf9b9331a2958feac4e7237f05f9ddcf99334e611ef8c2db",
+      "size": 946,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/graph.gif",
+      "sha256": "7252926e8dc9abe09ebb9f04858172a29f1e05bf24d905be91a2213e72f275d1",
+      "size": 607,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/graph_modified.gif",
+      "sha256": "be7a90f5036fed312dd8ef4fa7d604cc4dba0664e8fd9685f15c605db32722bf",
+      "size": 604,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/image.gif",
+      "sha256": "76cc1ca8f1cd38500f52ca9cd2e53593e3f05b779d82394f1f3c0945b3a00d99",
+      "size": 217,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/image_modified.gif",
+      "sha256": "e573973779666d1c811e10ea6a7236d8b9bdfc448cae9cd1f3ff3248e3e6549b",
+      "size": 172,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/inprogress.gif",
+      "sha256": "8784facbfa348bb28156f88a859b7cf78a38fe6b85079fbb8f4da51da7afe039",
+      "size": 318,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/log.gif",
+      "sha256": "f9e5be003407d86042e9c2c3bf0b95e8af0ab3382e90e525a41583206f7656e9",
+      "size": 568,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/log_modified.gif",
+      "sha256": "4c189cdf13f5159c9ea913a8df59fcc3b9c07cc24503a02215f602ec99ff134d",
+      "size": 577,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/parameters.gif",
+      "sha256": "182ad754eff7f7fa48c485a22a3d259f7c0ab35e0a918f53763186778eeb40b3",
+      "size": 1016,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/parameters_modified.gif",
+      "sha256": "68ebd8ab5778fa47bddf8f19a3e5bb0d364a388dcbe82977ac09b44b311f6782",
+      "size": 1008,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/project.gif",
+      "sha256": "658bd7b170411acec59cb09bd413bbaedafc8d7eaff8422959f35d66ff917a10",
+      "size": 587,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/project_modified.gif",
+      "sha256": "2fae2dda085747bb9cc415604353b91f2cdf41bdc91d05a820d366a1bb3c6b2a",
+      "size": 357,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/property.gif",
+      "sha256": "8be822c693e9ab6fe2fee083006b891be16e1b10bf186434ff1982cf3afce45b",
+      "size": 1042,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/property_modified.gif",
+      "sha256": "0118b63d1874956519ff5a18bac7d2955e14db2464f9e5330bc1079d64b44ed2",
+      "size": 1008,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/root.gif",
+      "sha256": "658bd7b170411acec59cb09bd413bbaedafc8d7eaff8422959f35d66ff917a10",
+      "size": 587,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/root_modified.gif",
+      "sha256": "2fae2dda085747bb9cc415604353b91f2cdf41bdc91d05a820d366a1bb3c6b2a",
+      "size": 357,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/run.gif",
+      "sha256": "16cf1896424690a31718f3f900670ab16acb2888622a1127b622d7dc4fe15ea1",
+      "size": 125,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/script.gif",
+      "sha256": "19cb5b1576a987ed0886de57d7a32ad51c624eb4b749e6e3a52eaadf10ff6e92",
+      "size": 155,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/script_modified.gif",
+      "sha256": "f413aef9b51e9496aa5b5c12698fc72e83269c5bc8ee419e64176c4692e92455",
+      "size": 161,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/spectra.gif",
+      "sha256": "1c20bb7ea88f75a223c1557929650d548cfd5251c6035f907a8aec3e9950642b",
+      "size": 563,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/spectra_modified.gif",
+      "sha256": "0c9df73b18c31ed09b747a3bf3c9953d409387edbd863d03b3a63f18c72814da",
+      "size": 388,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/spectrum1d.gif",
+      "sha256": "23b81dfa3d1304a84a5e5d3ef83aaf2a141407186a9e03da881b10e93240252d",
+      "size": 375,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/spectrum1d_modified.gif",
+      "sha256": "aacd1524f6b65477aa4c37d9caa4686933b3b9dd4b1c0e30ec7756f05cbb6c97",
+      "size": 347,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/spectrum2d.gif",
+      "sha256": "bcced3bb41ac959b921919a988558a3cd285213ebc797c607dea83fc7d4a6db2",
+      "size": 1057,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/spectrum2d_modified.gif",
+      "sha256": "56432e7cbe99655ca1bb8f74184f1165922b0dae8282b112b3c7db5d46bd720a",
+      "size": 1044,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/success.gif",
+      "sha256": "f10a80c373fd6c24d8dc34e57288f4fb32bbf6af3da307752f37aae81f047114",
+      "size": 101,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/text.gif",
+      "sha256": "9d63d08b514cb4a3588d6be0a9592bf24ec5afffe43f32dc42de260c82ff4ffd",
+      "size": 153,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/text_modified.gif",
+      "sha256": "0f4c89e4ea11e6b42091594026ddff3909fd636d31147e1ced46b717e7f24e8a",
+      "size": 138,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/datatypes/warning.gif",
+      "sha256": "0aae5390007ae1cb1390e133471e3d7755d0906e53e5e0783b2af3e9445f8a17",
+      "size": 326,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/delai.gif",
+      "sha256": "e0de8ef2648327a1ab9528c6e27c93a682aab9758c80c0bb2f676733228bd1f0",
+      "size": 305,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/delete_edit.gif",
+      "sha256": "909b1c6d3c27ca1f77ed93cdf66002633785d597e532ce70d3d8e0b8bb0374df",
+      "size": 122,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/details.gif",
+      "sha256": "82b9eaccd6667d6347cd223183ac6dcecdb3c3f87fb6b5f722621bd41fc124f4",
+      "size": 332,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/dir.gif",
+      "sha256": "6548f1dfe753ca21c3b76ca9027f4c50a98e6c4a4e5537515931a4a4891f330a",
+      "size": 589,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/diropened.gif",
+      "sha256": "91d298d73721a9484dc7d11d3888782e5b394213d201731d7f58c9c2dacff6d1",
+      "size": 623,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/e_print_edit.gif",
+      "sha256": "d0fc3062ea9e97fb2d406ce554b2208df17d47fb16f87200ad466b3ca315ad22",
+      "size": 612,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/e_search_results_view.gif",
+      "sha256": "ab56f7424aa21b25e8d29dda5f769db0649478d73136d5a90e67b25f9ee91f7d",
+      "size": 360,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/errors.gif",
+      "sha256": "ce03f59707bebd8752bba6ffa5f19edeb17fba6304e7ad3d2d1006fbc2e6405e",
+      "size": 624,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/exit.gif",
+      "sha256": "aef79f09b72b511ed17986d00eaa3ff1a8657a2df4ea0601a1da1132e95091df",
+      "size": 351,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/expand.gif",
+      "sha256": "05010c69049a951f34c9fa4c6faefb3f48ed03f43137ac18b7cbc19cf2682544",
+      "size": 105,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/exportplot.gif",
+      "sha256": "e9317818681da01e28a0a3db969e31f63d74308948123c6ad5550e88b3ecf8ce",
+      "size": 617,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/file_export.gif",
+      "sha256": "4e788f627c63a2c0e6f2118dccdbf90bc09ee3cd9b3e10e289393ceacdcd9b85",
+      "size": 902,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/file_import.gif",
+      "sha256": "9b11b409931f766486648be74bcbcd53712f0f6a828ba334aa1a2f8ab3fd924d",
+      "size": 899,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/filter_ps.gif",
+      "sha256": "b40c23165cd1b07771970d64da172f39918fd3a46decd113f678a7185bb4c4e1",
+      "size": 576,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/fit.gif",
+      "sha256": "934bf60c96c846a1847d78703c3370236e278941a6fc4ef4bdc0455094624f3d",
+      "size": 153,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/flatLayout.gif",
+      "sha256": "b9c1b4935fd0125e79ef89ca2fbf5d8f17e74816abf00466525adaf9f1df5241",
+      "size": 97,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/footer.gif",
+      "sha256": "59016c69505805e3701549dea58e1a40727e0def7e354be93eaa9286771475d4",
+      "size": 334,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/forward.gif",
+      "sha256": "205aa8c69c28f445cd01cdb18743362a6959582d5104cc6ff27582c2133046d2",
+      "size": 327,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/forward_disabled.gif",
+      "sha256": "72eef719cd287cb372f136f18c14c312782d7b383861aadeb5b077a0e53dd6bf",
+      "size": 141,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/gotopage.gif",
+      "sha256": "e6ee0b44229c5b3e48e13fc7c11ef45ab49d26bd5fc250f8844412da341550ea",
+      "size": 1028,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/group.gif",
+      "sha256": "cf7d0a7e61163b0fcf4d13efbdcf21a279ce07dce62bdd2f6dcfb36344392239",
+      "size": 146,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/group_footer.gif",
+      "sha256": "c9e4cedbe9572c3975ab050b4d2a65f9faf4e615b186dee3ed1df2804b865211",
+      "size": 106,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/group_header.gif",
+      "sha256": "91b6102279cb2e900746947f490cc5d67f66f3b796abdb5d159aa6222e4cca78",
+      "size": 107,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/header.gif",
+      "sha256": "8bc62a97506384fab161599cc85dd62b33cfa1c70dddfe71f584f6bfc7e04133",
+      "size": 339,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/help_about.gif",
+      "sha256": "ffc78b1c009ce2c7d956a22ac7dbc672d36638687f3238c6455b5e7c981c4c4c",
+      "size": 573,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/help_context.gif",
+      "sha256": "a98c521dfd3909e5fbd3fa1d536e7bbe3d0aa52c4d996d64a750cfd13965aaaf",
+      "size": 90,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/help_doc.gif",
+      "sha256": "01bb25353e3de2732c2caef35a3ce934420791687c17ff867e14cf0828b5a370",
+      "size": 418,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/image.gif",
+      "sha256": "81fe196e7f21fe4ac78f2b9a9e921f1ba090af916874c86dec3e063deca7c3cd",
+      "size": 587,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/image_obj.gif",
+      "sha256": "e9be7c0d1795e6820c88f436ed1494903e7087ddbbd30d6c82452b7a3905957d",
+      "size": 1051,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/import_resource_wiz.gif",
+      "sha256": "040feb407b893707c9db4c6f3dae1c18865dc8d1ca9d04ff82dde2494efef6ed",
+      "size": 562,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/include.gif",
+      "sha256": "60e7368c00e7389fc8050837314170d6845a58eb59bb946b700874ca8333f45d",
+      "size": 114,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/info.gif",
+      "sha256": "ffc78b1c009ce2c7d956a22ac7dbc672d36638687f3238c6455b5e7c981c4c4c",
+      "size": 573,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/list.gif",
+      "sha256": "ecf3ce782ecc9167ee6e8d29564ccbf91c5fb28a39dd0cf96961ef9fe769ab30",
+      "size": 227,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/list_group.gif",
+      "sha256": "1f0fc8c681d85339f0f699f26a0ed68f96d0cbffc1c6413f8b96f2d26e947a9c",
+      "size": 214,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/list_link.gif",
+      "sha256": "dc1894bbef8e036c6aadcd87908c9e81be9fc09e30e6a36d77b41e64d51d6e89",
+      "size": 591,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/log.gif",
+      "sha256": "f9e5be003407d86042e9c2c3bf0b95e8af0ab3382e90e525a41583206f7656e9",
+      "size": 568,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/logo_mini.gif",
+      "sha256": "faee15aaec4691bdda9d03a267e5de52a1e8ec961aeb3e22c0f192b1b6ba9a2e",
+      "size": 541,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/dataset_add.gif",
+      "sha256": "0a2d2b23f2f917bd50d697a00b890ca471e26d78db7e2da5f136f465a3d132ba",
+      "size": 576,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/dataset_close.gif",
+      "sha256": "0c9862922fb37f128b1d0e8c8eaa52abae21cc24ca61e06bc878837cdc00b429",
+      "size": 357,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/dataset_closeall.gif",
+      "sha256": "df5544d8ee5ba0cb6bfd0bfe489a76decda71d322b2d1f171f426a48f040f60d",
+      "size": 613,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/exit.gif",
+      "sha256": "aef79f09b72b511ed17986d00eaa3ff1a8657a2df4ea0601a1da1132e95091df",
+      "size": 351,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/file_export.gif",
+      "sha256": "4e788f627c63a2c0e6f2118dccdbf90bc09ee3cd9b3e10e289393ceacdcd9b85",
+      "size": 902,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/file_import.gif",
+      "sha256": "9b11b409931f766486648be74bcbcd53712f0f6a828ba334aa1a2f8ab3fd924d",
+      "size": 899,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/print.gif",
+      "sha256": "ae3d157a148e30c537f482c3d16476787737663a516b20868e937cbb98f8ee8b",
+      "size": 614,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/project_new.gif",
+      "sha256": "bd9ac710a169b4433638897029666c8b8d82d613a4e0eca89e5d867dee1ba663",
+      "size": 610,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/revert.gif",
+      "sha256": "50dad778d15e2cfd02df00714618a8f29730d3dcf7e6cc3ad15c8cb1f0194c96",
+      "size": 330,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/save.gif",
+      "sha256": "e1f45c7b18e6f5c651e7d9b22c96804e25f62bf4d915aadf376adde7dd577533",
+      "size": 640,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/saveall.gif",
+      "sha256": "7ac1e022a71a70b7ef5d24e1e8a8d45eda95c3e74e8819037db1bacfb457bdd9",
+      "size": 1060,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/menufile/saveas.gif",
+      "sha256": "2c0c19a3691a70f5bc17cd4c787668932495b291c2f19236db93ee3cf7c8957d",
+      "size": 655,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/methpri_obj.gif",
+      "sha256": "ca48e3fc96d35c745d3b9ea79cd0bbf4574fb2d260c8c72a57e8b3780b39dcff",
+      "size": 96,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/methpro_obj.gif",
+      "sha256": "7690b2e211543d03e5a3503d6e263e9c9c2c2b226f9b60081dae8a9398f49cc7",
+      "size": 91,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/noerrors.gif",
+      "sha256": "081348a6bfc0271d6a6642f39435e07a620249658b165737edabc25c7c40e200",
+      "size": 135,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/options_obj.gif",
+      "sha256": "070558f421de4443164fe6d99805ff2e04644e7f30d93dce1efefc934c90caa1",
+      "size": 1072,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/pan.gif",
+      "sha256": "1a70be8360d4e79db9af53f387a1e76d13749c446a888dc73d683eaa192ed769",
+      "size": 203,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/pan2.gif",
+      "sha256": "0a5db8c1974664c8c55ebf9d0a064facaa65c1a6b14a0194aff1c85c3517f2c2",
+      "size": 977,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/parameter.gif",
+      "sha256": "4de6f07d91ef52309a01dfe7b2f12ee2253693a030e237fad3c826f35f3b4390",
+      "size": 855,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/parameters.gif",
+      "sha256": "e78314640ec78cc83e036236098f17678bf1ed2ff982e01085c5419f8eae04f7",
+      "size": 572,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/paste_edit.gif",
+      "sha256": "7c3a4e4911c8e0b070a66ac37811ced5f06a4c8b3846a263cda65c7cab9decc3",
+      "size": 605,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/plot.gif",
+      "sha256": "7252926e8dc9abe09ebb9f04858172a29f1e05bf24d905be91a2213e72f275d1",
+      "size": 607,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/print.gif",
+      "sha256": "ae3d157a148e30c537f482c3d16476787737663a516b20868e937cbb98f8ee8b",
+      "size": 614,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/project.gif",
+      "sha256": "658bd7b170411acec59cb09bd413bbaedafc8d7eaff8422959f35d66ff917a10",
+      "size": 587,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/project_new.gif",
+      "sha256": "bd9ac710a169b4433638897029666c8b8d82d613a4e0eca89e5d867dee1ba663",
+      "size": 610,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/project_opened.gif",
+      "sha256": "0b34991569754a64ebe39620bcb5d9cd7683b218c4d35a7fc4d71a257e0d7b32",
+      "size": 592,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/properties.gif",
+      "sha256": "8be822c693e9ab6fe2fee083006b891be16e1b10bf186434ff1982cf3afce45b",
+      "size": 1042,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/properties_comment.gif",
+      "sha256": "f207fde9487cc8b1ca581d807c8701f83d0a29528d02c466a6cb98f36442c074",
+      "size": 185,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/properties_uncomment.gif",
+      "sha256": "8f5accfb6b7ea792e350a0f29ee673471e2e443b0678e576c03b8f3b507b6e7d",
+      "size": 203,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/pulse.gif",
+      "sha256": "cd75a28d668caf84d62dd53fc74e793a58532c38dd8259246ee2565248df819c",
+      "size": 352,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/redo_edit.gif",
+      "sha256": "71af24f5af2d0205492992e5b35aa5aa4c6da474c059ec4d468eabd0d0cdb755",
+      "size": 356,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/reset.gif",
+      "sha256": "50dad778d15e2cfd02df00714618a8f29730d3dcf7e6cc3ad15c8cb1f0194c96",
+      "size": 330,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/run_exec.gif",
+      "sha256": "16cf1896424690a31718f3f900670ab16acb2888622a1127b622d7dc4fe15ea1",
+      "size": 125,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/save.gif",
+      "sha256": "e1f45c7b18e6f5c651e7d9b22c96804e25f62bf4d915aadf376adde7dd577533",
+      "size": 640,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/saveas.gif",
+      "sha256": "6448200986bba36b076e2877ac15829ff8a8c61d5b92ae6f19c53bded559e35d",
+      "size": 407,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/script.gif",
+      "sha256": "19cb5b1576a987ed0886de57d7a32ad51c624eb4b749e6e3a52eaadf10ff6e92",
+      "size": 155,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/script_comment.gif",
+      "sha256": "f207fde9487cc8b1ca581d807c8701f83d0a29528d02c466a6cb98f36442c074",
+      "size": 185,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/script_new.gif",
+      "sha256": "81439c050a8c83b59ac5128bf42c9826cd2ae30e838daaa7f804971689ec0c95",
+      "size": 336,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/script_uncomment.gif",
+      "sha256": "8f5accfb6b7ea792e350a0f29ee673471e2e443b0678e576c03b8f3b507b6e7d",
+      "size": 203,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/searchrecord.gif",
+      "sha256": "a47094479312007235bfe42979fda84d13ec5b30bb5da83d4ef1e10e70d5723b",
+      "size": 613,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/showproject.gif",
+      "sha256": "bc11b3e03a2b76a1acdfa4a8e70a4583459b50697ab7f414ece4f42c9a3fc90f",
+      "size": 129,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/smallpypulsarlogo.gif",
+      "sha256": "effd46927af54ff8555ffa367b1a03891c18a54d533a1b91e919a314dc2ff264",
+      "size": 1052,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/smodel_cbemessage.gif",
+      "sha256": "e9f94967dd03813ed7905a7a08046cc0d91b891b9f683df4d9d41cdb2d997d82",
+      "size": 368,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/smodel_modifiablerep.gif",
+      "sha256": "36a3aa84430120c1d552fdb28e2b86e00cf00f12c354c0f9aa26057887482229",
+      "size": 570,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/spec1D.gif",
+      "sha256": "23b81dfa3d1304a84a5e5d3ef83aaf2a141407186a9e03da881b10e93240252d",
+      "size": 375,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/spec2D.gif",
+      "sha256": "bcced3bb41ac959b921919a988558a3cd285213ebc797c607dea83fc7d4a6db2",
+      "size": 1057,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/stackframe.gif",
+      "sha256": "40fff73d5d9901d7fc44ca5012a782cd9989d736a40954c59fa1238d6893ceff",
+      "size": 104,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/stop.gif",
+      "sha256": "4c4f34d86b6d90da5b802ff17520e27ad7ff3085a528b89ff6d7261b97d06bde",
+      "size": 215,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/task_inprogress_misc.gif",
+      "sha256": "8784facbfa348bb28156f88a859b7cf78a38fe6b85079fbb8f4da51da7afe039",
+      "size": 318,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/task_success_misc.gif",
+      "sha256": "f10a80c373fd6c24d8dc34e57288f4fb32bbf6af3da307752f37aae81f047114",
+      "size": 101,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/task_warning_misc.gif",
+      "sha256": "5d3c3f84d7a005f905293b153968bc09e2e3de51c2afb991b16659ad27ad0aaa",
+      "size": 331,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/topic.gif",
+      "sha256": "0628d88e6d1c398070eae381500fe6a8de44176612eb50b83940c76296213aff",
+      "size": 315,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/tree.gif",
+      "sha256": "f7988f638173d9001da8265e248bb6028cede6c406d92a9d9e4226205925368a",
+      "size": 98,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/undo_edit.gif",
+      "sha256": "7da93234516e8e9bd34fd7b8768255bf9264aa281ad4da60c6bbb9304dd7c2f3",
+      "size": 355,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/variable.gif",
+      "sha256": "f3a59c395edfad73c63a502fadf46fa5ac8b6553bfc36d8f22fa7b9e050b3c2f",
+      "size": 301,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/warning.gif",
+      "sha256": "e2870ead9bba3551e73c31b827e7d8599ada0d8276b3ee7868860cc28bb3446d",
+      "size": 620,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/wizardlogo.gif",
+      "sha256": "31c9f1768192fe56594744a759dd75055b7fe13a77be8af642cfcf8555b1b087",
+      "size": 2402,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/zoom.gif",
+      "sha256": "75984aa93f1466ab18e7e2c8104ca54a8c88edac85005bfb7d2eddad6b8a2dce",
+      "size": 242,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/icons/zoom2.gif",
+      "sha256": "119bd9420ecbe9be4ccc85d382ecdbc28179589e8ab4bcd50c0e18b1724fc6d8",
+      "size": 573,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/pypulsar.ico",
+      "sha256": "eeea39e6fcb3b3b58a5b5aea5313106128e124b110d35c426bb3aac52004b8d6",
+      "size": 22486,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/pypulsarlogo.gif",
+      "sha256": "d803c01d914686b7cc5c72fee955b4032301559d195b4ea2349c7b376456e13a",
+      "size": 2514,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/images/pypulsarsplash.gif",
+      "sha256": "3f8fb794cbdc880a4c4f670c078be085eb7790cfef53a5f4c85f67ef3ca496bb",
+      "size": 7721,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/oldplot.py",
+      "sha256": "b97b5b8c1af75b46d430427a853f2ee04576165ba6b68d7900e609396ab1f08a",
+      "size": 21519,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/optimize.py",
+      "sha256": "771f95ff8d2bdb8272e6a8c9fdb2104a6bd8b6556b1e90a3dd27c9a50dfbc04e",
+      "size": 69162,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/parentframe.py",
+      "sha256": "aaf5413d05f6ed3a6aacfc13b6150ecdcee20d790e22fa62106a45a34577779d",
+      "size": 36639,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/periodictable.py",
+      "sha256": "5043883bf3b2d8a7ecfe6b30f8770dafc743155ec77a27a3ad6b56bb6433e4da",
+      "size": 15929,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/plot.py",
+      "sha256": "2f99f76e9ea845659021833ba0d34dbc60e50ba89ace5417622d5ffd75dae2df",
+      "size": 38910,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/plotcolors.py",
+      "sha256": "89de353911d52c07285ea3a8dfdca5740be9898cf797fca59a48e37f6881ada0",
+      "size": 3310,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/plotprinter.py",
+      "sha256": "3dc645e00fb980cbf3b499308df262606c75b21308c4fc0b77c2035f8dd0a36d",
+      "size": 2264,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/printer.py",
+      "sha256": "a77701d0b00be83fca4c18c441e7a87c28d2e75ab5a12ee8fa156047304b82eb",
+      "size": 3223,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/process.py",
+      "sha256": "8b6e8eac79d906360f6e2b4dd3ff949ce04421094a55bf76b049737fb2626f71",
+      "size": 31831,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/processing.py",
+      "sha256": "c177abb21dce2233ef232355b77fbef19cecf11e8d5435862b7532eb6f7e6ff5",
+      "size": 6709,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/project.py",
+      "sha256": "7c6ed3464b5f188f975e3e83db8ac66cf0944e3f21202b01d2a265c610546acb",
+      "size": 63798,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/pypulsar.py",
+      "sha256": "952b61f8a3b1bfa23c3e11b16afd9ef68644fd57b817b1c433743dc6ae67bccd",
+      "size": 7149,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/pypulsar.xcfg",
+      "sha256": "1bcc341812e4c82cc57b67c2bd40e2739fdc8fa21424ef7c6ee4154dd4174fbf",
+      "size": 86,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/pypulsar.xrc",
+      "sha256": "8118293b96118db5089368ecbbbeeaab4a16023ee5fcfd5f2644b56d5e7d0e0e",
+      "size": 58337,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/pypulsar_xrc.py",
+      "sha256": "9a395b21418f52b54418bbf99e31e66138652961417f4b79318cc51bb81ad7cf",
+      "size": 39032,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/regularsearch.py",
+      "sha256": "6dd4d603d437f19a635a953dab8b36fc7d88007581e65bbb619392f8f38ed6c3",
+      "size": 20408,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/run.py",
+      "sha256": "588df200157882b170014a46747f87b09d5924c267fec299c4b66581ba789ce7",
+      "size": 2467,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/script.py",
+      "sha256": "4148b1d7d614a1c7347f0d3c050eb1651ad5796336be70f56b21e3b207caea80",
+      "size": 16005,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/specselect.py",
+      "sha256": "d1c91fc593d7b49b670e7cbdc51cee04a2cdd2f119a5a0bcd1bcb3e49c7b6a09",
+      "size": 3233,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/spectres.py",
+      "sha256": "9148026983f9d224aa01db29fb10444d8162e183a01844e5c07ac9423b67194d",
+      "size": 19231,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/splashscreen.py",
+      "sha256": "28e2064684925433b9bba90e32e0ee35738dba452e3404b79f21395f34743ee9",
+      "size": 4946,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/stceditor.py",
+      "sha256": "c12cda963abb5924b14668dd8e7dbfc5f40b59807184079c5c8c7e90f9dd8bc3",
+      "size": 29281,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/version.py",
+      "sha256": "7cb22c5c9ec6f69c8628b3fba4b460954a41568bb072b250f44e2c9294c38769",
+      "size": 178,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/wizdataset.py",
+      "sha256": "28a9acd0d8047f3e7e7c9be8aa82fc09079fc532c9c92b3add7473583c1ac435",
+      "size": 25242,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/wizproject.py",
+      "sha256": "8214803943ef8c4e4cb4ae6f2497a5fd570614350a48e3412257d1d0f97d9be8",
+      "size": 7561,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/.lastexpdir",
+      "sha256": "ebda253f93495aa1728bc690998b6ba7211c8df308274979ea4ca30384159307",
+      "size": 19,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/.lastproject",
+      "sha256": "4689433d1c6050ca0e96f8d392466cd763f9215abbc50e8fa2e297662a250f1c",
+      "size": 64,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/models/CP-HartmanHahn.tpl",
+      "sha256": "1c58e4adb1b28a7a4fca5730f567ed258a65b3c80f28c5e44fb5e129da100683",
+      "size": 1913,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/models/CP-contact.tpl",
+      "sha256": "f6c54e36d7eecb5f51ffc530880eb32b4a1ee3f3562d2434d62d8cc390ff0ddb",
+      "size": 1850,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/models/MQMas-p2.tpl",
+      "sha256": "9738042c6e64eb39bed2daf13d70a03f709e6c705561252309f27f62b013340e",
+      "size": 2076,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/models/MQMas.tpl",
+      "sha256": "bf462b4cf0e4c7967f7694c256421cf7aebebc11d459bb2c0faf529ee288a513",
+      "size": 2070,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/models/RealPulse.tpl",
+      "sha256": "6f80d1fabf6c6ac50d3be93694320de3c70d5fd4729e70d4ebc5e450ecb7bdae",
+      "size": 1104,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/models/Simple.tpl",
+      "sha256": "20087e4939105ae344af43c79cd61cf724d3e8825fb801f63d28c74d7b41eae5",
+      "size": 1027,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/models/TwoNuclei.tpl",
+      "sha256": "7a33e53cd4642a3a1bfe0ac1ca0b25c8efb78a81d053232176c73d3c1148cca1",
+      "size": 2316,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/models/_experimental.tpl",
+      "sha256": "3258b255fa4cba2f319b1be879b6338e0095c5bac909916d1988a2ae800cd37c",
+      "size": 2936,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/models/_experimental2.tpl",
+      "sha256": "7483148ea382bd63c57a6836ab3c8bceb241595ff790846fb3d65c8f09990978",
+      "size": 2768,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/models/hahnecho.tpl",
+      "sha256": "cfbf8491608b8298083c360217149700d6625814fc806af645640b7a8cc0cf73",
+      "size": 1681,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/workspace/models/popt.tpl",
+      "sha256": "e4437b952a4326df541416cc07cd2e1942caf7dc20792f3cf554df77999dfa9c",
+      "size": 3055,
+      "executable": false
+    },
+    {
+      "path": "pypulsar/xmldocument.py",
+      "sha256": "670cc98409feadc5a2915a82f97f7e232195f93a09e62a18c8ba8a1aaf705885",
+      "size": 17584,
+      "executable": false
+    },
+    {
+      "path": "python/Python25/numpy/distutils/fcompiler/intel.py",
+      "sha256": "226c33d1e273e8f937885bd8314120051c163e27e38b7988023f9e78f76d4854",
+      "size": 8186,
+      "executable": false
+    },
+    {
+      "path": "python/notes.txt",
+      "sha256": "c88029b2cc87e6c24ff4f8d0e28757c6bfa60ac579a64f4798b74cef845a10f3",
+      "size": 149,
+      "executable": false
+    },
+    {
+      "path": "version.py",
+      "sha256": "2143280918c96dbb1db23da2a20b401702dd15a099b217d7c4837c1b8be30cbc",
+      "size": 113,
+      "executable": false
+    }
+  ]
+}

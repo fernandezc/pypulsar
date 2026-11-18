@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using the preserved PyPulsar source; the original PULSAR paper is referenced in pypulsar/README.html."
+type: software
+title: "PyPulsar: historical solid-state NMR simulation software"
+authors:
+  - family-names: Amoureux
+    given-names: Jean-Paul
+  - family-names: Fernandez
+    given-names: Christian
+version: "0.2.alpha1.0-383 (SourceForge SVN r385 snapshot)"
+repository-code: "https://github.com/fernandezc/pypulsar"
+url: "https://sourceforge.net/projects/pypulsar/"
+abstract: "Historical SourceForge source snapshot preserved as a reference for subsequent SpectroChemPy NMR development. Project-owned code has an additional CeCILL-B grant; third-party components retain their original terms."
